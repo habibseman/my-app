@@ -9,11 +9,9 @@ function App() {
 	alert("hey this is me")
     }
   return (
-    <div className="App">
-	  <h1>hello react!</h1>
-	  <button onClick={onClick}>SEND DATA</button>
-	  <h2>my name is {name}</h2>
-    </div>
+    <h1 className="text-3xl font-bold">
+      Hello world!
+    </h1>
   );
 }
 
